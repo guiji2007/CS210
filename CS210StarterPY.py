@@ -1,18 +1,6 @@
 import re
 import string
 
-
-def printsomething():
-    print("Hello from python!")
-
-def PrintMe(v):
-    print("You sent me: " + v)
-    return 100;
-
-def SquareValue(v):
-    return v * v
-
-
 def DisplayMenu():
     print("Enter 1: Produce a list of all items purchased in a given day along with the number of times each item was purchased.")
     print("Enter 2: Produce a number representing how many times a specific item was purchased in a given day.")
