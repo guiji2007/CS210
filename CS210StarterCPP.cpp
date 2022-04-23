@@ -149,10 +149,6 @@ int main()
 	ifstream inFS;
 	ofstream outFS;
 	int itemFreq;
-	//CallProcedure("printsomething");
-	//cout << callIntFunc("PrintMe", "House") << endl;
-	//cout << callIntFunc("SquareValue", 2);
-	//cout << callIntFunc("PrintItem", "groceryList") << endl;
 	
 	CallProcedure("DisplayMenu");
 	cin >> userInput;
